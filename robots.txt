@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Crawl-delay: 1
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.json$
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml

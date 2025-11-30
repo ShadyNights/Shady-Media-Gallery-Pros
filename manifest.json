@@ -1,0 +1,40 @@
+{
+  "name": "Shady Media Gallery Pro",
+  "short_name": "Gallery Pro",
+  "description": "Professional photo & video gallery with AI-powered search",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4361ee",
+  "orientation": "any",
+  "icons": [{
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📸</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📸</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": [
+    "photo",
+    "entertainment",
+    "utilities"
+  ],
+  "screenshots": [],
+  "shortcuts": [{
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Search photos and videos",
+      "url": "/?action=search"
+    },
+    {
+      "name": "Favorites",
+      "short_name": "Favorites",
+      "description": "View favorite items",
+      "url": "/?tab=favorites"
+    }
+  ]
+}
